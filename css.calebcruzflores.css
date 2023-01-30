@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #111;
+}
+.waviy {
+    text-align: center;
+}
+.waviy span {
+    font-family: 'Times New Roman', Times, serif;
+    height: 20vh;
+    display: inline-block;
+    font-size: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 4.5s infinite;
+    animation-delay: calc(.2s * var(--i));
+}
+@keyframes flip {
+    0%,80% {
+        transform: rotateY(360deg)
+    }
+}
+
+ul {
+    list-style-type: none;
+    color: #fff;
+}
+li {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+.box-header {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    height: 60px;
+    width: auto; 
+}
+.socials-logo {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.traveler {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 65vh;
+    margin-left: 125vh;
+}
+
+.arrow {
+    box-sizing: border-box;
+    height: 4vw;
+    width: 4vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+  }
+  
+  .arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
+  .sub-head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .portfolio {
+    bottom: -1000px;
+}
+ .certs {
+    font-size: 40px;
+    margin: 60px 0;
+}
+.certs-1::before {
+    content: "🖥️ ";
+}
+.certs-2::before {
+    content: "👨‍💻 ";
+}
+.certs-3::before {
+    content: "👩‍🎨 ";
+}
+.portfolio-quote {
+    height: 500px;
+    width: 700px;
+}
+.personal-page {
+    height: 500px;
+    width: 700px;
+    border: 1px solid white;
+}
+.markdown {
+    height: 500px;
+    width: 700px;
+    top: 1050px;
+    left: 600px;
+}
+.markdown-text {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+.random-gen {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+.personal-portfolio {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+.socials {
+    bottom: -2700px;
+}
+.contact-area {
+    height: 300px;
+    width: 800px;
+    background-color: #1111;
+}
+.email-input {
+    position:absolute;
+    bottom: -2800px;
+    right: 700px;
+    width: 500px;
+}
+.button {
+    position: absolute;
+    bottom: -3000px;
+    right: 752px;
+    border-radius: 5px;
+    right: 700px;
+}
+.textarea {
+    position:absolute;
+    bottom: -3000px;
+    right: 700px;
+    height: 200px;
+    width: 500px;
+}
+.name-input {
+    position: absolute;
+    bottom: -2772px;
+    right: 700px;
+    width: 500px;
+}
+.image-caleb {
+  margin-top: 65vh;
+  margin-left: 25vh;
+}
+#slide {
+    position: absolute;
+    left: -700px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s; 
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+@keyframes slide {
+    100% { left: 0; }
+}
+.fade-in-text {
+    font-family: Arial;
+    font-size: 60px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
